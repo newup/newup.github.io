@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+body {
+    background-color: #f5f5f5;
+    color: #141414;
+    font-family: 'Arimo', sans-serif;
+}
+::selection,
+::selection {
+    color: #f5f5f5;
+    background-color: #70667f;
+}
+
+::-moz-selection,
+::-moz-selection {
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Nixie One', cursive;
+    color: #141414;
+}
+li {
+    margin-bottom: 3px;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    color: #433748;
+    line-height: 1.5;
+}
+.mega-action {
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: -moz-linear-gradient(#fcfcfc, #eee);
+    background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+    background-image: linear-gradient(#fcfcfc, #eee);
+    background-repeat: repeat-x;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    user-select: none;
+    -webkit-appearance: none;
+}
+.mega-action:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    background-image: -moz-linear-gradient(#eee, #ddd);
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+}
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.site-header {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.site-header .logo {
+    color: #4b4455;
+    font-size: 1.4em;
+    float: left;
+}
+.site-header .action {
+    position: relative;
+    float: right;
+    font-size: .9em;
+    color: #322d39;
+    padding-top: 5px;
+}
+.text-normal {
+	font-weight: 400;
+}
+.text-center {
+    text-align: center;
+}
+.text-muted {
+    color: #859098;
+}
+.text-small {
+    font-size: 0.9em;
+}
+.column {
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+}
+.column-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inner {
+    position: relative;
+    max-width: 700px;
+    width: 90%;
+    padding: 40px 60px 0;
+    margin: 0 auto;
+}
+.footer {
+    border-top: 1px solid #ececec;
+}
+.footer .inner {
+    padding: 15px 60px 0;
+}
+.chrome {
+    padding: 20px 0 0;
+    border-radius: 3px;
+    border-bottom: 2px solid #ccc;
+    background: #ddd;
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+.chrome img {
+    width: 100%;
+}
+.chrome .frame {
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+.chrome span {
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
+    background-color: #4b4455;
+    border: 1px solid #dadada;
+    float: left;
+    margin: 0 0 0 4px;
+}
+@media only screen and (max-width: 43.75em) {
+    .inner {
+        max-width: inherit;
+        width: inherit;
+    }
+}
